@@ -1,0 +1,801 @@
+class1,class2,domain1,domain2,GT,interdomain,weight,wikidata,coqex,gpt,prob_lesser,prob_greater,prediction,accuracy
+island,dam,geographical_entity,geographical_entity,-1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,0
+book,satellite,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+ancient civilization,fast food restaurant,geographical_entity,organization,-1,True,0.0,0.0,-1.0,-1.0,0.6234576753337372,0.3765423246662628,-1,1
+phytoplankton,football club,species,organization,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+astronaut,travel agency,occupation,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+spacecraft,helicopter,man-made_object,man-made_object,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+observatory,merchant ship,man-made_object,man-made_object,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+amphibian,coal power plant,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+formula one circuit,percussion instrument,man-made_object,man-made_object,-1,False,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+snake,dam,species,geographical_entity,-1,True,-1.0,-1.0,-1.0,0.0,0.5801285571215558,0.41987144287844425,-1,1
+submarine,wind turbine,man-made_object,man-made_object,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+bacteria,lawyer,species,occupation,1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+hospital,formula one circuit,organization,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+nuclear power plant,book,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+police officer,board game,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+ancient civilization,bank,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+play,skyscraper,creative_work,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+tree,actor,species,occupation,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+scientific paper,skyscraper,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+board game,merchant ship,creative_work,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+politician,world heritage site,occupation,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+animation feature film,submarine,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+dam,board game,geographical_entity,creative_work,-1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,0
+astronaut,animation feature film,occupation,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+island,nuclear power plant,geographical_entity,geographical_entity,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+bee,space station,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+airport,national dance,geographical_entity,creative_work,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+architect,world heritage site,occupation,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+city,travel agency,geographical_entity,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+mammal,spacecraft,species,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+desert,formula one circuit,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+researcher,airport,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+politician,island,occupation,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+satellite,skyscraper,man-made_object,man-made_object,-1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+nuclear power plant,smartphone,geographical_entity,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+insect,NBA player,species,occupation,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+journalist,animation studio,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+technological invention,satellite,creative_work,man-made_object,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+politician,nurse,occupation,occupation,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+university,oil tanker,organization,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+coal power plant,cryptocurrency exchange,organization,organization,1,False,1.0,1.0,-1.0,0.0,0.4713827077456686,0.5286172922543314,1,1
+volcano,university,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+coal power plant,song,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+fungus,fish,species,species,1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+architect,zoo,occupation,geographical_entity,1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+phytoplankton,fast food restaurant,species,organization,-1,True,0.0,0.0,-1.0,-1.0,0.6234576753337372,0.3765423246662628,-1,1
+plant,butterfly,species,species,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+fish,industrial robot,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+nuclear power plant,animation feature film,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+journalist,oil tanker,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+journalist,nuclear power plant,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+website,formula one circuit,creative_work,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+butterfly,lawyer,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+insect,airline pilot,species,occupation,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+film,video game,creative_work,creative_work,-1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,0
+insect,hospital,species,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+fish,physicist,species,occupation,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+snake,helicopter,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+politician,national park,occupation,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+desert,highway,geographical_entity,geographical_entity,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+desert,football club,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+nuclear power plant,football club,geographical_entity,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+fish,lake,species,geographical_entity,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+bee,video game,species,creative_work,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+animation feature film,industrial robot,creative_work,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+coal power plant,conglomerate,organization,organization,-1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+fish,scientific paper,species,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+plant,national dance,species,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bird,island,species,geographical_entity,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+city,bank,geographical_entity,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+airline pilot,scientific paper,occupation,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+NBA player,zoo,occupation,geographical_entity,-1,True,1.0,1.0,-1.0,0.0,0.4713827077456686,0.5286172922543314,1,0
+phytoplankton,play,species,creative_work,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+mammal,wind turbine,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+butterfly,city,species,geographical_entity,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+amphibian,police officer,species,occupation,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+fast food restaurant,space station,organization,man-made_object,1,True,0.0,0.0,1.0,1.0,0.32930157175276564,0.6706984282472344,1,1
+nurse,mobile app,occupation,creative_work,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+journalist,observatory,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+island,formula one circuit,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+satellite,industrial robot,man-made_object,man-made_object,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+animation studio,national dance,organization,creative_work,-1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,0
+city,book,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+travel agency,religious text,organization,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+dentist,wind turbine,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+hospital,observatory,organization,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+researcher,coal power plant,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+physicist,fast food restaurant,occupation,organization,1,True,0.0,0.0,-1.0,1.0,0.42664722781895514,0.5733527721810449,1,1
+architect,publisher,occupation,organization,1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+fish,wind turbine,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+religious text,animation feature film,creative_work,creative_work,-1,False,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+snake,bank,species,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+fungus,tree,species,species,1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+insect,public library,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+actor,merchant ship,occupation,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+journalist,mobile app,occupation,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+fish,journalist,species,occupation,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+animation studio,board game,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+journalist,river,occupation,geographical_entity,1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+film,formula one circuit,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+nuclear power plant,publisher,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+bee,coal power plant,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+snake,formula one circuit,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bee,industrial robot,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+astronaut,spacecraft,occupation,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+astronaut,zoo,occupation,geographical_entity,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+fungus,satellite,species,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+animation studio,religious text,organization,creative_work,1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+video game,painting,creative_work,creative_work,1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+airline pilot,play,occupation,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+book,skyscraper,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+painting,helicopter,creative_work,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+conglomerate,spacecraft,organization,man-made_object,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+bank,helicopter,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+nurse,religious text,occupation,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+mammal,space station,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+patent,scientific paper,creative_work,creative_work,-1,False,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+airline,skyscraper,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+zoo,scientific paper,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+island,volcano,geographical_entity,geographical_entity,-1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,0
+dam,tea company,geographical_entity,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+mammal,tea company,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+grass,play,species,creative_work,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+national park,coal power plant,geographical_entity,organization,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+bacteria,space station,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+grass,spacecraft,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+dentist,zoo,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+dentist,painting,occupation,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+world heritage site,mobile app,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+NBA player,airport,occupation,geographical_entity,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+city,highway,geographical_entity,geographical_entity,1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+fish,city,species,geographical_entity,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+amphibian,helicopter,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+tea company,patent,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+school teacher,national dance,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+researcher,zoo,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+snake,industrial robot,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+national dance,skyscraper,creative_work,man-made_object,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+airport,song,geographical_entity,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+butterfly,airport,species,geographical_entity,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+grass,police officer,species,occupation,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+dam,conglomerate,geographical_entity,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+desert,submarine,geographical_entity,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+insect,plant,species,species,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+mobile app,bicycle,creative_work,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+plant,tree,species,species,1,False,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+spider,national park,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+mammal,cooperative,species,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+phytoplankton,cooperative,species,organization,-1,True,-1.0,-1.0,-1.0,0.0,0.5801285571215558,0.41987144287844425,-1,1
+publisher,industrial robot,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+video game,bicycle,creative_work,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+astronaut,castle,occupation,geographical_entity,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+fish,world heritage site,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+tea company,oil tanker,organization,man-made_object,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+fast food restaurant,oil tanker,organization,man-made_object,1,True,0.0,0.0,1.0,1.0,0.32930157175276564,0.6706984282472344,1,1
+actor,journalist,occupation,occupation,1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+city,percussion instrument,geographical_entity,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+board game,national dance,creative_work,creative_work,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+fashion designer,travel agency,occupation,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+physicist,book,occupation,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+bird,football club,species,organization,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+mammal,conglomerate,species,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+mammal,hospital,species,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+mammal,publisher,species,organization,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+volcano,animation feature film,geographical_entity,creative_work,1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,0
+spider,river,species,geographical_entity,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+grass,board game,species,creative_work,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+bee,dam,species,geographical_entity,1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,1
+plant,police officer,species,occupation,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+astronaut,play,occupation,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+spacecraft,percussion instrument,man-made_object,man-made_object,1,False,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,1
+fashion designer,video game,occupation,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+river,desert,geographical_entity,geographical_entity,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+lake,national park,geographical_entity,geographical_entity,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+astronaut,river,occupation,geographical_entity,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+hospital,tea company,organization,organization,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+fish,butterfly,species,species,1,False,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+animation studio,painting,organization,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+phytoplankton,mobile app,species,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+insect,travel agency,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+actor,physicist,occupation,occupation,1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+bee,spacecraft,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+highway,book,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+animation studio,cryptocurrency exchange,organization,organization,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+lawyer,zoo,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+architect,scientific paper,occupation,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+airport,observatory,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+snake,fashion designer,species,occupation,-1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,0
+animation feature film,percussion instrument,creative_work,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+amphibian,actor,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+painting,satellite,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+travel agency,technological invention,organization,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+physicist,formula one circuit,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bird,observatory,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+patent,wind turbine,creative_work,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+astronaut,song,occupation,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+tree,conglomerate,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+NBA player,spacecraft,occupation,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+volcano,nuclear power plant,geographical_entity,geographical_entity,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+ancient civilization,zoo,geographical_entity,geographical_entity,-1,False,-1.0,-1.0,-1.0,0.0,0.5801285571215558,0.41987144287844425,-1,1
+cooperative,mobile app,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+architect,book,occupation,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+painting,spacecraft,creative_work,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+tea company,merchant ship,organization,man-made_object,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+fashion designer,helicopter,occupation,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+insect,coal power plant,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+fungus,dentist,species,occupation,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+dam,cryptocurrency exchange,geographical_entity,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+amphibian,national dance,species,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bank,scientific paper,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+NBA player,nurse,occupation,occupation,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+cryptocurrency exchange,observatory,organization,man-made_object,-1,True,-1.0,-1.0,1.0,0.0,0.4768912734426505,0.5231087265573495,1,0
+publisher,spacecraft,organization,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+plant,fast food restaurant,species,organization,-1,True,0.0,0.0,1.0,-1.0,0.5220977118335559,0.47790228816644414,-1,1
+dentist,national park,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bacteria,bank,species,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+bee,bank,species,organization,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+fish,mammal,species,species,1,False,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+airline pilot,football club,occupation,organization,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+plant,airport,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+zoo,animation feature film,geographical_entity,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+bee,physicist,species,occupation,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+astronaut,animation studio,occupation,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+world heritage site,animation feature film,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+journalist,technological invention,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+police officer,publisher,occupation,organization,1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,1
+grass,lawyer,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+school teacher,publisher,occupation,organization,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+plant,helicopter,species,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+researcher,travel agency,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+tree,airport,species,geographical_entity,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+lake,technological invention,geographical_entity,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+zoo,space station,geographical_entity,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+website,bicycle,creative_work,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+architect,university,occupation,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+actor,film,occupation,creative_work,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+river,video game,geographical_entity,creative_work,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+police officer,highway,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+cryptocurrency exchange,satellite,organization,man-made_object,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+researcher,board game,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+animation feature film,formula one circuit,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+zoo,cryptocurrency exchange,geographical_entity,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+police officer,religious text,occupation,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+insect,cryptocurrency exchange,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+painting,observatory,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+world heritage site,travel agency,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+book,oil tanker,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+bacteria,patent,species,creative_work,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+board game,formula one circuit,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+cryptocurrency exchange,space station,organization,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+butterfly,castle,species,geographical_entity,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+police officer,animation feature film,occupation,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+space station,percussion instrument,man-made_object,man-made_object,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+world heritage site,song,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+grass,space station,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+dam,spacecraft,geographical_entity,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+police officer,helicopter,occupation,man-made_object,1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+researcher,nurse,occupation,occupation,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+publisher,song,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+zoo,formula one circuit,geographical_entity,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+journalist,island,occupation,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+submarine,observatory,man-made_object,man-made_object,-1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+bird,skyscraper,species,man-made_object,1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+bacteria,oil tanker,species,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+cooperative,smartphone,organization,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+politician,cryptocurrency exchange,occupation,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+tea company,satellite,organization,man-made_object,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+bacteria,painting,species,creative_work,1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+fish,NBA player,species,occupation,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+lawyer,observatory,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+lake,submarine,geographical_entity,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+volcano,video game,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+religious text,website,creative_work,creative_work,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+play,helicopter,creative_work,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+fungus,airline,species,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+spider,painting,species,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+bacteria,island,species,geographical_entity,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+bird,satellite,species,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+desert,tea company,geographical_entity,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+dam,website,geographical_entity,creative_work,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+amphibian,lawyer,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+police officer,ancient civilization,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+architect,formula one circuit,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+coal power plant,helicopter,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+tree,politician,species,occupation,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+publisher,coal power plant,organization,organization,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bee,airline pilot,species,occupation,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+snake,castle,species,geographical_entity,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+actor,book,occupation,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+police officer,space station,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+river,bicycle,geographical_entity,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+tree,national dance,species,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+police officer,skyscraper,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bee,actor,species,occupation,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+bacteria,smartphone,species,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+castle,satellite,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+publisher,mobile app,organization,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+insect,national dance,species,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bacteria,publisher,species,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+airline pilot,helicopter,occupation,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+butterfly,fast food restaurant,species,organization,-1,True,0.0,0.0,-1.0,-1.0,0.6234576753337372,0.3765423246662628,-1,1
+butterfly,industrial robot,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+nuclear power plant,website,geographical_entity,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+lake,tea company,geographical_entity,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+wind turbine,skyscraper,man-made_object,man-made_object,1,False,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+journalist,airport,occupation,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+film,national dance,creative_work,creative_work,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+fast food restaurant,submarine,organization,man-made_object,1,True,0.0,0.0,1.0,1.0,0.32930157175276564,0.6706984282472344,1,1
+hospital,wind turbine,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+volcano,song,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+spider,university,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+zoo,travel agency,geographical_entity,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+school teacher,hospital,occupation,organization,1,True,-1.0,-1.0,1.0,0.0,0.4768912734426505,0.5231087265573495,1,1
+tree,school teacher,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+animation feature film,oil tanker,creative_work,man-made_object,-1,True,1.0,1.0,-1.0,0.0,0.4713827077456686,0.5286172922543314,1,0
+fashion designer,website,occupation,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+mobile app,religious text,creative_work,creative_work,1,False,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,1
+patent,satellite,creative_work,man-made_object,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+religious text,skyscraper,creative_work,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+airport,play,geographical_entity,creative_work,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+architect,police officer,occupation,occupation,-1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+amphibian,university,species,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+book,spacecraft,creative_work,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+nurse,industrial robot,occupation,man-made_object,1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+airline pilot,conglomerate,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+plant,animation feature film,species,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+politician,merchant ship,occupation,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+video game,wind turbine,creative_work,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+coal power plant,industrial robot,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+bird,phytoplankton,species,species,1,False,1.0,1.0,-1.0,0.0,0.4713827077456686,0.5286172922543314,1,1
+phytoplankton,nurse,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+fashion designer,board game,occupation,creative_work,1,True,1.0,1.0,-1.0,0.0,0.4713827077456686,0.5286172922543314,1,1
+hospital,travel agency,organization,organization,-1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,0
+NBA player,mobile app,occupation,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+bird,university,species,organization,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+conglomerate,cooperative,organization,organization,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+snake,national park,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+volcano,conglomerate,geographical_entity,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+national dance,percussion instrument,creative_work,man-made_object,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+insect,satellite,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+architect,religious text,occupation,creative_work,1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+bacteria,researcher,species,occupation,1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+airline pilot,cooperative,occupation,organization,-1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,0
+ancient civilization,cryptocurrency exchange,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+bank,animation feature film,organization,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+lake,publisher,geographical_entity,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+bird,spacecraft,species,man-made_object,1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+island,mobile app,geographical_entity,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+lawyer,wind turbine,occupation,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+highway,coal power plant,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+animation studio,merchant ship,organization,man-made_object,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+plant,song,species,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+lawyer,space station,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+play,wind turbine,creative_work,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+desert,religious text,geographical_entity,creative_work,1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+river,zoo,geographical_entity,geographical_entity,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+grass,volcano,species,geographical_entity,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+public library,observatory,organization,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+tree,castle,species,geographical_entity,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+architect,public library,occupation,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+astronaut,hospital,occupation,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+video game,play,creative_work,creative_work,1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+researcher,painting,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+dam,cooperative,geographical_entity,organization,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+actor,smartphone,occupation,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+castle,national dance,geographical_entity,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+actor,volcano,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+snake,religious text,species,creative_work,1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,0
+politician,wind turbine,occupation,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+plant,astronaut,species,occupation,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+actor,researcher,occupation,occupation,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+fast food restaurant,song,organization,creative_work,-1,True,0.0,0.0,1.0,-1.0,0.5220977118335559,0.47790228816644414,-1,1
+lake,painting,geographical_entity,creative_work,1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,0
+actor,spacecraft,occupation,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+animation feature film,helicopter,creative_work,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+architect,wind turbine,occupation,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+university,helicopter,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+actor,architect,occupation,occupation,1,False,1.0,1.0,-1.0,0.0,0.4713827077456686,0.5286172922543314,1,1
+physicist,cooperative,occupation,organization,-1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,0
+plant,cryptocurrency exchange,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+butterfly,merchant ship,species,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+politician,book,occupation,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+university,board game,organization,creative_work,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+city,national park,geographical_entity,geographical_entity,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+coal power plant,oil tanker,organization,man-made_object,-1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,0
+police officer,play,occupation,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+desert,ancient civilization,geographical_entity,geographical_entity,1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+scientific paper,animation feature film,creative_work,creative_work,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+butterfly,conglomerate,species,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+insect,fast food restaurant,species,organization,1,True,0.0,0.0,1.0,1.0,0.32930157175276564,0.6706984282472344,1,1
+architect,mobile app,occupation,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+mobile app,song,creative_work,creative_work,-1,False,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+insect,animation feature film,species,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+zoo,coal power plant,geographical_entity,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+bacteria,hospital,species,organization,1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,0
+researcher,castle,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+journalist,smartphone,occupation,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+mammal,cryptocurrency exchange,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+fish,castle,species,geographical_entity,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+dam,formula one circuit,geographical_entity,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+film,observatory,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+politician,hospital,occupation,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+volcano,mobile app,geographical_entity,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+fashion designer,conglomerate,occupation,organization,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+island,conglomerate,geographical_entity,organization,1,True,1.0,1.0,0.0,1.0,0.32686636944471104,0.673133630555289,1,1
+world heritage site,formula one circuit,geographical_entity,man-made_object,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+researcher,bicycle,occupation,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+snake,architect,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+spider,wind turbine,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+lake,cryptocurrency exchange,geographical_entity,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+bird,insect,species,species,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+architect,animation feature film,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+fungus,spider,species,species,1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+world heritage site,football club,geographical_entity,organization,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+airline pilot,board game,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+volcano,world heritage site,geographical_entity,geographical_entity,1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+nuclear power plant,university,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+airline pilot,island,occupation,geographical_entity,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+highway,bank,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+bank,spacecraft,organization,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+tree,play,species,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+phytoplankton,satellite,species,man-made_object,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+astronaut,national dance,occupation,creative_work,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+journalist,tea company,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+film,merchant ship,creative_work,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+astronaut,island,occupation,geographical_entity,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+highway,scientific paper,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+amphibian,travel agency,species,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+island,cryptocurrency exchange,geographical_entity,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+lawyer,cooperative,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+conglomerate,religious text,organization,creative_work,1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,1
+grass,skyscraper,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+politician,NBA player,occupation,occupation,1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+space station,smartphone,man-made_object,man-made_object,-1,False,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+fish,fast food restaurant,species,organization,-1,True,0.0,0.0,-1.0,-1.0,0.6234576753337372,0.3765423246662628,-1,1
+mammal,animation studio,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+play,satellite,creative_work,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+island,board game,geographical_entity,creative_work,-1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,0
+insect,publisher,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+conglomerate,book,organization,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+bank,book,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+school teacher,public library,occupation,organization,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+bacteria,bee,species,species,1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+oil tanker,bicycle,man-made_object,man-made_object,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+physicist,national dance,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+island,spacecraft,geographical_entity,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+city,satellite,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+snake,website,species,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+snake,tea company,species,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+spider,highway,species,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+national park,football club,geographical_entity,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+phytoplankton,bank,species,organization,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+book,painting,creative_work,creative_work,1,False,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,1
+snake,technological invention,species,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+oil tanker,wind turbine,man-made_object,man-made_object,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+desert,animation studio,geographical_entity,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+ancient civilization,smartphone,geographical_entity,man-made_object,-1,True,0.0,0.0,1.0,-1.0,0.5220977118335559,0.47790228816644414,-1,1
+lake,song,geographical_entity,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+fast food restaurant,wind turbine,organization,man-made_object,1,True,0.0,0.0,1.0,-1.0,0.5220977118335559,0.47790228816644414,-1,0
+ancient civilization,animation studio,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+animation studio,scientific paper,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+play,merchant ship,creative_work,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+lake,highway,geographical_entity,geographical_entity,1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+lake,skyscraper,geographical_entity,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+amphibian,tree,species,species,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+fungus,website,species,creative_work,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+bee,board game,species,creative_work,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+fish,politician,species,occupation,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+public library,mobile app,organization,creative_work,-1,True,1.0,1.0,0.0,-1.0,0.519340760888894,0.4806592391111059,-1,1
+insect,patent,species,creative_work,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+world heritage site,website,geographical_entity,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+butterfly,highway,species,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+tree,space station,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+insect,formula one circuit,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+castle,oil tanker,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+lawyer,religious text,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+police officer,fast food restaurant,occupation,organization,1,True,0.0,0.0,-1.0,1.0,0.42664722781895514,0.5733527721810449,1,1
+river,percussion instrument,geographical_entity,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+NBA player,wind turbine,occupation,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+dentist,percussion instrument,occupation,man-made_object,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+animation studio,mobile app,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+university,coal power plant,organization,organization,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+river,submarine,geographical_entity,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+police officer,nuclear power plant,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+snake,merchant ship,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+phytoplankton,dentist,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+film,industrial robot,creative_work,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+bird,helicopter,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+bee,zoo,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+grass,ancient civilization,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+nurse,merchant ship,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+fashion designer,dam,occupation,geographical_entity,1,True,-1.0,-1.0,-1.0,0.0,0.5801285571215558,0.41987144287844425,-1,0
+animation studio,film,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+lawyer,technological invention,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+fashion designer,airline pilot,occupation,occupation,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+dentist,public library,occupation,organization,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+ancient civilization,conglomerate,geographical_entity,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+hospital,scientific paper,organization,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+video game,animation feature film,creative_work,creative_work,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+film,satellite,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+plant,video game,species,creative_work,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+phytoplankton,helicopter,species,man-made_object,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+national park,bicycle,geographical_entity,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+lawyer,ancient civilization,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+travel agency,industrial robot,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+bacteria,scientific paper,species,creative_work,1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,0
+cooperative,video game,organization,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+patent,formula one circuit,creative_work,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+desert,publisher,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+dentist,fast food restaurant,occupation,organization,1,True,0.0,0.0,-1.0,1.0,0.42664722781895514,0.5733527721810449,1,1
+city,animation studio,geographical_entity,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+journalist,skyscraper,occupation,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+highway,industrial robot,geographical_entity,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+lake,religious text,geographical_entity,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bird,painting,species,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+physicist,zoo,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+school teacher,fast food restaurant,occupation,organization,1,True,0.0,0.0,1.0,1.0,0.32930157175276564,0.6706984282472344,1,1
+airline,animation feature film,organization,creative_work,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+national dance,submarine,creative_work,man-made_object,-1,True,-1.0,-1.0,-1.0,0.0,0.5801285571215558,0.41987144287844425,-1,1
+journalist,video game,occupation,creative_work,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+airline pilot,dentist,occupation,occupation,-1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+astronaut,nurse,occupation,occupation,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+grass,NBA player,species,occupation,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+spider,helicopter,species,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+video game,merchant ship,creative_work,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+actor,submarine,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+nuclear power plant,hospital,geographical_entity,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+grass,industrial robot,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+physicist,nurse,occupation,occupation,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+snake,observatory,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+desert,city,geographical_entity,geographical_entity,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+satellite,observatory,man-made_object,man-made_object,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bee,bicycle,species,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+phytoplankton,actor,species,occupation,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+actor,world heritage site,occupation,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+highway,submarine,geographical_entity,man-made_object,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+bee,animation feature film,species,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+university,cryptocurrency exchange,organization,organization,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+architect,painting,occupation,creative_work,1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,0
+board game,play,creative_work,creative_work,1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+airport,city,geographical_entity,geographical_entity,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+bank,oil tanker,organization,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+researcher,cryptocurrency exchange,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+researcher,national dance,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+fungus,insect,species,species,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+plant,actor,species,occupation,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+nuclear power plant,national dance,geographical_entity,creative_work,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+mammal,smartphone,species,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+desert,public library,geographical_entity,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+tea company,space station,organization,man-made_object,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+fashion designer,skyscraper,occupation,man-made_object,1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+fungus,journalist,species,occupation,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+cryptocurrency exchange,website,organization,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+politician,university,occupation,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+bird,zoo,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+highway,publisher,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+highway,university,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+play,formula one circuit,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+highway,spacecraft,geographical_entity,man-made_object,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+bee,castle,species,geographical_entity,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+film,patent,creative_work,creative_work,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+NBA player,book,occupation,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+school teacher,cooperative,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+politician,patent,occupation,creative_work,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+dam,public library,geographical_entity,organization,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+butterfly,religious text,species,creative_work,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+researcher,merchant ship,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+tree,airline,species,organization,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+lawyer,football club,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+nurse,film,occupation,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+bank,merchant ship,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+researcher,university,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+phytoplankton,spacecraft,species,man-made_object,-1,True,-1.0,-1.0,1.0,0.0,0.4768912734426505,0.5231087265573495,1,0
+city,technological invention,geographical_entity,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+airline pilot,nuclear power plant,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bank,cooperative,organization,organization,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+bacteria,world heritage site,species,geographical_entity,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+fashion designer,football club,occupation,organization,1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+nuclear power plant,skyscraper,geographical_entity,man-made_object,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+tree,cryptocurrency exchange,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+butterfly,technological invention,species,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+university,smartphone,organization,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+astronaut,city,occupation,geographical_entity,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+politician,city,occupation,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+cryptocurrency exchange,book,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+astronaut,nuclear power plant,occupation,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+lake,wind turbine,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+publisher,wind turbine,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+police officer,merchant ship,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+tree,airline pilot,species,occupation,-1,True,-1.0,-1.0,-1.0,0.0,0.5801285571215558,0.41987144287844425,-1,1
+amphibian,architect,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+bacteria,highway,species,geographical_entity,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+song,smartphone,creative_work,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+nurse,dam,occupation,geographical_entity,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+journalist,university,occupation,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+public library,spacecraft,organization,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+bacteria,play,species,creative_work,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+world heritage site,smartphone,geographical_entity,man-made_object,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+airline pilot,cryptocurrency exchange,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bacteria,film,species,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+school teacher,observatory,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+volcano,football club,geographical_entity,organization,1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,0
+lawyer,national dance,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+astronaut,public library,occupation,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+snake,mammal,species,species,-1,False,-1.0,-1.0,-1.0,0.0,0.5801285571215558,0.41987144287844425,-1,1
+airline pilot,volcano,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+submarine,oil tanker,man-made_object,man-made_object,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+cryptocurrency exchange,industrial robot,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+spider,castle,species,geographical_entity,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+mobile app,smartphone,creative_work,man-made_object,-1,True,1.0,1.0,0.0,-1.0,0.519340760888894,0.4806592391111059,-1,1
+cryptocurrency exchange,video game,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+wind turbine,formula one circuit,man-made_object,man-made_object,1,False,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+insect,fish,species,species,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bee,desert,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+highway,painting,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+national park,smartphone,geographical_entity,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+fish,airline pilot,species,occupation,-1,True,-1.0,-1.0,-1.0,0.0,0.5801285571215558,0.41987144287844425,-1,1
+butterfly,hospital,species,organization,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+fashion designer,highway,occupation,geographical_entity,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+bank,tea company,organization,organization,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+song,play,creative_work,creative_work,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+publisher,oil tanker,organization,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+video game,spacecraft,creative_work,man-made_object,1,True,1.0,1.0,0.0,-1.0,0.519340760888894,0.4806592391111059,-1,0
+spider,website,species,creative_work,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+film,play,creative_work,creative_work,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+amphibian,video game,species,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+police officer,song,occupation,creative_work,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+plant,physicist,species,occupation,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+fashion designer,book,occupation,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+fashion designer,merchant ship,occupation,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+butterfly,skyscraper,species,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+website,smartphone,creative_work,man-made_object,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+airline pilot,film,occupation,creative_work,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+island,desert,geographical_entity,geographical_entity,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bee,astronaut,species,occupation,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+highway,skyscraper,geographical_entity,man-made_object,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+butterfly,mobile app,species,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+fashion designer,spacecraft,occupation,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+actor,technological invention,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+mobile app,animation feature film,creative_work,creative_work,1,False,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,1
+airline pilot,technological invention,occupation,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+spacecraft,industrial robot,man-made_object,man-made_object,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+football club,skyscraper,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+castle,fast food restaurant,geographical_entity,organization,1,True,0.0,0.0,-1.0,-1.0,0.6234576753337372,0.3765423246662628,-1,0
+physicist,smartphone,occupation,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+cryptocurrency exchange,mobile app,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+percussion instrument,industrial robot,man-made_object,man-made_object,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+phytoplankton,travel agency,species,organization,-1,True,-1.0,-1.0,-1.0,0.0,0.5801285571215558,0.41987144287844425,-1,1
+national dance,website,creative_work,creative_work,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+airline pilot,animation studio,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+conglomerate,animation feature film,organization,creative_work,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+fish,desert,species,geographical_entity,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+phytoplankton,university,species,organization,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+mammal,politician,species,occupation,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+insect,nuclear power plant,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+phytoplankton,public library,species,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+bacteria,school teacher,species,occupation,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+coal power plant,wind turbine,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+astronaut,highway,occupation,geographical_entity,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+lake,football club,geographical_entity,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+desert,airline,geographical_entity,organization,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+snake,conglomerate,species,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+actor,conglomerate,occupation,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+lake,merchant ship,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+animation feature film,technological invention,creative_work,creative_work,1,False,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+island,city,geographical_entity,geographical_entity,-1,False,1.0,1.0,-1.0,0.0,0.4713827077456686,0.5286172922543314,1,0
+police officer,dentist,occupation,occupation,1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+spider,journalist,species,occupation,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+national park,scientific paper,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+national park,book,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+mammal,desert,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+nuclear power plant,wind turbine,geographical_entity,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+football club,travel agency,organization,organization,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+city,helicopter,geographical_entity,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+mammal,animation feature film,species,creative_work,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+cooperative,submarine,organization,man-made_object,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+physicist,observatory,occupation,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+island,book,geographical_entity,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+grass,tea company,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+film,helicopter,creative_work,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+conglomerate,merchant ship,organization,man-made_object,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+hospital,coal power plant,organization,organization,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+snake,travel agency,species,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+nurse,nuclear power plant,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+island,observatory,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+airline pilot,bicycle,occupation,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+spider,volcano,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+airport,submarine,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+castle,play,geographical_entity,creative_work,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+mammal,submarine,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+journalist,desert,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+fast food restaurant,formula one circuit,organization,man-made_object,1,True,0.0,0.0,1.0,1.0,0.32930157175276564,0.6706984282472344,1,1
+snake,mobile app,species,creative_work,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+book,helicopter,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+river,patent,geographical_entity,creative_work,-1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,0
+zoo,helicopter,geographical_entity,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+insect,website,species,creative_work,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+highway,zoo,geographical_entity,geographical_entity,-1,False,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+politician,play,occupation,creative_work,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+video game,submarine,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+cooperative,religious text,organization,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+film,website,creative_work,creative_work,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+fashion designer,oil tanker,occupation,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+NBA player,video game,occupation,creative_work,-1,True,-1.0,-1.0,1.0,0.0,0.4768912734426505,0.5231087265573495,1,0
+castle,dam,geographical_entity,geographical_entity,1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,0
+lawyer,patent,occupation,creative_work,1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+animation studio,oil tanker,organization,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+fish,lawyer,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+school teacher,smartphone,occupation,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+animation studio,airline,organization,organization,-1,False,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+fish,publisher,species,organization,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+snake,airline pilot,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+public library,oil tanker,organization,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+snake,plant,species,species,-1,False,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+animation studio,patent,organization,creative_work,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+cryptocurrency exchange,scientific paper,organization,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+bee,nurse,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+grass,university,species,organization,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+satellite,smartphone,man-made_object,man-made_object,-1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+tree,nuclear power plant,species,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+phytoplankton,formula one circuit,species,man-made_object,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+bee,smartphone,species,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+tree,publisher,species,organization,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+conglomerate,technological invention,organization,creative_work,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+amphibian,river,species,geographical_entity,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+architect,national park,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+researcher,desert,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+city,scientific paper,geographical_entity,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+film,oil tanker,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+mammal,butterfly,species,species,-1,False,-1.0,-1.0,-1.0,0.0,0.5801285571215558,0.41987144287844425,-1,1
+plant,public library,species,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+fashion designer,bicycle,occupation,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+volcano,desert,geographical_entity,geographical_entity,1,False,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+fungus,astronaut,species,occupation,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+lake,helicopter,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,0
+airport,public library,geographical_entity,organization,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+fast food restaurant,website,organization,creative_work,-1,True,0.0,0.0,-1.0,-1.0,0.6234576753337372,0.3765423246662628,-1,1
+river,formula one circuit,geographical_entity,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+phytoplankton,dam,species,geographical_entity,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+tea company,skyscraper,organization,man-made_object,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+lake,coal power plant,geographical_entity,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+wind turbine,merchant ship,man-made_object,man-made_object,1,False,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+mobile app,national dance,creative_work,creative_work,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+astronaut,lake,occupation,geographical_entity,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+airport,oil tanker,geographical_entity,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+lake,smartphone,geographical_entity,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+spider,submarine,species,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+police officer,video game,occupation,creative_work,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+cryptocurrency exchange,wind turbine,organization,man-made_object,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+plant,airline,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+submarine,spacecraft,man-made_object,man-made_object,-1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+dentist,world heritage site,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+coal power plant,public library,organization,organization,-1,False,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+mobile app,wind turbine,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+phytoplankton,school teacher,species,occupation,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+amphibian,film,species,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+journalist,dentist,occupation,occupation,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+spider,board game,species,creative_work,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+airport,video game,geographical_entity,creative_work,-1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,0
+world heritage site,animation studio,geographical_entity,organization,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+highway,smartphone,geographical_entity,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+school teacher,ancient civilization,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+spider,dam,species,geographical_entity,1,True,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,1
+physicist,publisher,occupation,organization,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+NBA player,national park,occupation,geographical_entity,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+bird,video game,species,creative_work,-1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,0
+highway,formula one circuit,geographical_entity,man-made_object,1,True,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+desert,observatory,geographical_entity,man-made_object,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+airport,bank,geographical_entity,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+politician,desert,occupation,geographical_entity,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+island,religious text,geographical_entity,creative_work,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+mammal,river,species,geographical_entity,-1,True,-1.0,-1.0,-1.0,-1.0,0.6733108942104322,0.3266891057895678,-1,1
+patent,observatory,creative_work,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+painting,religious text,creative_work,creative_work,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+journalist,school teacher,occupation,occupation,-1,False,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+religious text,percussion instrument,creative_work,man-made_object,-1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,0
+amphibian,play,species,creative_work,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+website,industrial robot,creative_work,man-made_object,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+bird,amphibian,species,species,1,False,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+world heritage site,ancient civilization,geographical_entity,geographical_entity,1,False,-1.0,-1.0,1.0,1.0,0.3793288567889701,0.6206711432110299,1,1
+researcher,dentist,occupation,occupation,1,False,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+island,bank,geographical_entity,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+lawyer,dam,occupation,geographical_entity,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+spider,smartphone,species,man-made_object,-1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,0
+fish,spacecraft,species,man-made_object,1,True,1.0,1.0,1.0,0.0,0.3704244464631621,0.6295755535368379,1,1
+architect,lake,occupation,geographical_entity,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+airport,technological invention,geographical_entity,creative_work,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+airline pilot,river,occupation,geographical_entity,1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,0
+journalist,hospital,occupation,organization,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+cooperative,travel agency,organization,organization,1,False,1.0,1.0,-1.0,0.0,0.4713827077456686,0.5286172922543314,1,1
+board game,animation feature film,creative_work,creative_work,1,False,-1.0,-1.0,-1.0,1.0,0.4808603822516243,0.5191396177483757,1,1
+desert,travel agency,geographical_entity,organization,-1,True,1.0,1.0,-1.0,-1.0,0.5708457552035261,0.4291542447964739,-1,1
+journalist,helicopter,occupation,man-made_object,1,True,1.0,1.0,1.0,-1.0,0.4674213924851056,0.5325786075148944,1,1
+nuclear power plant,submarine,geographical_entity,man-made_object,-1,True,-1.0,-1.0,1.0,-1.0,0.5762495871181209,0.4237504128818791,-1,1
+river,nuclear power plant,geographical_entity,geographical_entity,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+police officer,conglomerate,occupation,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+video game,observatory,creative_work,man-made_object,1,True,1.0,1.0,-1.0,1.0,0.3741412144346301,0.6258587855653699,1,1
+satellite,submarine,man-made_object,man-made_object,1,False,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1
+fast food restaurant,painting,organization,creative_work,1,True,0.0,0.0,1.0,-1.0,0.5220977118335559,0.47790228816644414,-1,0
+amphibian,tea company,species,organization,1,True,1.0,1.0,1.0,1.0,0.2828651901918614,0.7171348098081386,1,1

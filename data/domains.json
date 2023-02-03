@@ -1,0 +1,140 @@
+{
+	"species": 
+	{
+		"type": "domain", 
+		"subgroup": ["country", "G20"],
+		"classes":
+		[
+			"fungus", 
+			"bird", 
+			"snake", 
+			"insect", 
+			"fish", 
+			"mammal", 
+			"spider", 
+			"bacteria", 
+			"plant",
+			"butterfly",
+			"amphibian",
+			"grass",
+			"tree",
+			"phytoplankton",
+			"bee"
+		]
+	},
+	"occupation":
+	{
+		"type": "domain",
+		"subgroup": ["country", "G20"],
+		"classes":
+		[
+			"politician",
+			"actor", 
+			"physicist",
+			"journalist",
+			"astronaut",
+			"researcher", 
+			"fashion designer", 
+			"lawyer", 
+			"school teacher", 
+			"architect", 
+			"police officer",
+			"NBA player",
+			"airline pilot",
+			"nurse",
+			"dentist"			
+		]
+	},
+	"organization":
+	{
+		"type": "domain",
+		"subgroup": ["country", "G20"],
+		"classes":
+		[
+			"university",
+			"hospital",
+			"publisher",
+			"football club",
+			"bank",
+			"animation studio",
+			"airline",
+			"coal power plant",
+			"tea company",
+			"conglomerate",
+			"public library",
+			"fast food restaurant",
+			"cryptocurrency exchange",
+			"cooperative",
+			"travel agency"
+		]
+	},
+	"creative_work":
+	{
+		"type": "domain",
+		"subgroup": ["country", "G20"],
+		"classes":
+		[
+			"film",
+			"book",
+			"board game",
+			"video game",
+			"painting",
+			"mobile app",
+			"song",	
+			"play",
+			"patent",
+			"scientific paper",
+			"national dance",
+			"religious text",
+			"animation feature film",
+			"technological invention",
+			"website"
+		]
+	},
+	"geographical_entity":
+	{
+		"type": "domain",
+		"subgroup": ["country", "G20"],
+		"classes":
+		[
+			"river",
+			"island",
+			"volcano",
+			"lake",
+			"desert",
+			"castle",
+			"dam",
+			"airport",
+			"city",
+			"highway",
+			"world heritage site",
+			"nuclear power plant",
+			"national park",
+			"ancient civilization",
+			"zoo"
+		]
+	},
+	"man-made_object":
+	{
+		"type": "domain",
+		"subgroup": ["country", "G20"],
+		"classes":
+		[
+			"satellite",
+			"space station",
+			"submarine",
+			"oil tanker",
+			"observatory",
+			"spacecraft",
+			"helicopter",
+			"wind turbine",
+			"formula one circuit",
+			"merchant ship",
+			"percussion instrument",
+			"smartphone",
+			"skyscraper",
+			"bicycle",
+			"industrial robot"
+		]
+	}
+}
