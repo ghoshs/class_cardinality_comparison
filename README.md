@@ -11,10 +11,10 @@ This repository contains dataset used in our experiments on the domimance estima
 ## Data <a name="data"></a>
 The data consists of:
 
-	- `classes.csv` - 90 classes with their ground-truth cardinalities and ground-truth metadata such as source, last updated.
-	- `domains.json` - JSON file with domains as keys. The value is a dict containing a list of classes, applicable subgroups of that domain.
-	- `subgroups.json` - JSON file containing subgroup names as keys and the values the subgroup takes, for instance countries in the G20 group.
-	- `wikidata_country_labels.json` - JSON map of Wikidata entities to subgroup values.
+- `classes.csv` - 90 classes with their ground-truth cardinalities and ground-truth metadata such as source, last updated.
+- `domains.json` - JSON file with domains as keys. The value is a dict containing a list of classes, applicable subgroups of that domain.
+- `subgroups.json` - JSON file containing subgroup names as keys and the values the subgroup takes, for instance countries in the G20 group.
+- `wikidata_country_labels.json` - JSON map of Wikidata entities to subgroup values.
 
 ## Results <a name="results"></a> 
 Results are in the `results/` folder and consist of:
@@ -28,4 +28,4 @@ Results are in the `results/` folder and consist of:
 3. Results in a single file
 	- `aggregated_results.csv` - predictor accuracies on all class pairs.
 
-##### TO-DO: update result fieldname desc. Add results here.
+##### TO-DO: update result fieldname desc. Add results here-->.
