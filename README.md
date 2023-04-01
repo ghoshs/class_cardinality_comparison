@@ -3,7 +3,8 @@
 1. [Introduction](#introduction)
 2. [Data](#data)
 3. [Results](#results)
-
+4. [Citation](#citation)
+5. [License](#license)
 
 ## Introduction <a name="introduction"></a>
 This repository contains dataset used in our experiments on the domimance estimation problem. We tackle class cardinality comparison leveraging three infomation sources: Knowledge Bases (KBs as Wikidata), Search-engines (SEs like Bing) results, and, Language Models (LMs like GPT-3).
@@ -29,3 +30,29 @@ Results are in the `results/` folder and consist of:
 	- `aggregated_results.csv` - predictor accuracies on all class pairs.
 
 ##### TO-DO: update result fieldname desc. Add results here-->.
+
+## Citation <a name="citation"></a>
+If you use our work please cite us:
+
+```bibtex
+@inproceedings{ghosh2023class,
+    title = "Class Cardinality as a Fermi Problem",
+    author = "Shrestha Ghosh and Simon Razniewski and Gerhard Weikum",
+    booktitle = "WWW 2023",
+    month = may,
+    year = "2023",
+}
+```
+
+## License <a name="license"></a>
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
