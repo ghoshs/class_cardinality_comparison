@@ -36,13 +36,15 @@ If you use our work please cite us:
 
 ```bibtex
 @inproceedings{ghosh2023class,
-    title = "Class Cardinality as a Fermi Problem",
+    title = "Class Cardinality Comparison as a Fermi Problem",
     author = "Shrestha Ghosh and Simon Razniewski and Gerhard Weikum",
     booktitle = "WWW 2023",
     month = may,
     year = "2023",
 }
 ```
+
+Full paper available [here](https://ghoshs.github.io/files/WWW_2023.pdf).
 
 ## License <a name="license"></a>
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
